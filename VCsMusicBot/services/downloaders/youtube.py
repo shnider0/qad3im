@@ -6,7 +6,7 @@ from VCsMusicBot.config import DURATION_LIMIT
 from VCsMusicBot.helpers.errors import DurationLimitError
 
 ydl_opts = {
-    "format": "bestaudio[ext=m4a]",
+    "format": "bestaudio",
     "geo-bypass": True,
     "nocheckcertificate": True,
     "outtmpl": "downloads/%(id)s.%(ext)s",
